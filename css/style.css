@@ -1,3 +1,45 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+body {
+    background-color: #add8e6;
+}
+
+.container {
+    width: 65%;
+    text-align: center;
+    margin: auto;
+}
+
+/* HEADER */
+
 h1 {
     font-family: "Nerko one";
+    color: white;
+    font-size: 70px;
+    margin-top: 10px;
 }
+
+/* MAIN */
+
+.row {
+    margin-top: 1px;
+    display: inline-block;
+}
+
+.card {
+    height: 200px;
+    width: 170px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 8px;
+}
+
