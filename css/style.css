@@ -18,6 +18,12 @@ body {
     margin: auto;
 }
 
+img {
+    width: 100%;
+    display: block;
+    z-index: 0;
+}
+
 /* HEADER */
 
 h1 {
@@ -45,7 +51,15 @@ h1 {
     background-size: contain;
 }
 
+.card img{
+    display: none;
+}
+
 .card:hover {
     background-image: none;
+}
+
+.card:hover img {
+    display: block;
 }
 
